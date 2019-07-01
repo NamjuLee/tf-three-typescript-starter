@@ -2,7 +2,7 @@ import * as tf from '@tensorflow/tfjs';
 
 export class TFCore{
     constructor(){
-        console.log('init Three core')  
+        console.log('init TF core')  
         console.log(`tf version:${tf.version["tfjs-core"]}`);
         this.init();
     }
