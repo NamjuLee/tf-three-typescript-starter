@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --inline --open"
+    "dev": "webpack-dev-server --inline --open"
   },
   "repository": {
     "type": "git",
@@ -34,8 +34,8 @@
     "webpack-dev-server": "latest"
   },
   "dependencies": {
-    "@tensorflow/tfjs": "^1.0.1",
-    "@types/three": "^0.93.30",
+    "@tensorflow/tfjs": "^2.8.5",
+    "@types/three": "^0.103.2",
     "three": "latest"
   }
 }

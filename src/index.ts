@@ -1,4 +1,4 @@
 import {App} from './app/App'
-import './style.css'
+// import './style.css'
 
 App.init();

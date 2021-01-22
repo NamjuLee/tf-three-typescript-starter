@@ -14,7 +14,7 @@ export class App{
 
     constructor(needCanvas: boolean = false){
 
-        // this.tfCore = new TFCore();
+        this.tfCore = new TFCore();
 
         if (needCanvas){
             this.canvasCore = new CanvasCore(this);
